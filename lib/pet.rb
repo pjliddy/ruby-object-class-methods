@@ -9,6 +9,14 @@ class Animal
     @name = name
     @species = species
   end
+
+  def speak
+    puts 'I am an instance method'
+  end
+
+  def self.talk
+    puts 'I am a class method'
+  end
 end
 
 # A class that accesses data about PETS
